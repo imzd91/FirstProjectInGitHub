@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  BaseViewController.h
 //  FirstProjectInGitHub
 //
-//  Created by zd on 2018/5/15.
+//  Created by zd on 2018/5/17.
 //  Copyright © 2018年 zd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseViewController : UIViewController
 
 @end
-

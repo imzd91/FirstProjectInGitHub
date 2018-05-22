@@ -1,0 +1,1664 @@
+2018-05-17 07:53:05 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7feefcae4ba0; archive(resolved)='<IDEArchive: 0x7feef431a2c0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team(resolved)='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7feefcae4ba0; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionProcessingPipelineContext: 0x7feeda6569d0; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionContext: 0x7feee75847e0; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionContext: 0x7feef35efd70; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionContext: 0x7fef02ceae40; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionContext: 0x7feeee83be10; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionContext: 0x7feee678ea60; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionContext: 0x7feed6e3cba0; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionContext: 0x7feef360c0e0; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='<IDEProvisioningBasicTeam 0x7feed7df8120: teamID: A6C6R885GZ, teamName: Beijing Paidian E-commerce Co., Ltd>'>
+	<IDEDistributionContext: 0x7feed4c49330; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7feefb99c9a0>', team='(null)'>
+	<IDEDistributionContext: 0x7feed6a742e0; archive = '<IDEArchive: 0x7feef431a2c0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7feefcae4ba0>
+2018-05-17 07:53:05 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-05-17 07:53:05 +0000  Processing step: IDEDistributionCopyItemStep
+2018-05-17 07:53:05 +0000  Running /usr/bin/ditto '-V' '/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app'
+2018-05-17 07:53:05 +0000  >>> Copying /Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app 
+2018-05-17 07:53:05 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  71043 bytes for ./_CodeSignature/CodeResources
+2018-05-17 07:53:05 +0000  copying file ./AppIcon20x20@2x.png ... 
+2018-05-17 07:53:05 +0000  933 bytes for ./AppIcon20x20@2x.png
+2018-05-17 07:53:05 +0000  copying file ./AppIcon20x20@3x.png ... 
+2018-05-17 07:53:05 +0000  1275 bytes for ./AppIcon20x20@3x.png
+2018-05-17 07:53:05 +0000  copying file ./AppIcon29x29@2x.png ... 
+2018-05-17 07:53:05 +0000  1276 bytes for ./AppIcon29x29@2x.png
+2018-05-17 07:53:05 +0000  copying file ./AppIcon29x29@3x.png ... 
+2018-05-17 07:53:05 +0000  1922 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon40x40@2x.png ... 
+2018-05-17 07:53:05 +0000  1768 bytes for ./AppIcon40x40@2x.png
+2018-05-17 07:53:05 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-05-17 07:53:05 +0000  2660 bytes for ./AppIcon40x40@3x.png
+2018-05-17 07:53:05 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-05-17 07:53:05 +0000  2641 bytes for ./AppIcon60x60@2x.png
+2018-05-17 07:53:05 +0000  copying file ./AppIcon60x60@3x.png ... 
+2018-05-17 07:53:05 +0000  4008 bytes for ./AppIcon60x60@3x.png
+2018-05-17 07:53:05 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-05-17 07:53:05 +0000  246 bytes for ./archived-expanded-entitlements.xcent
+2018-05-17 07:53:05 +0000  copying file ./Assets.car ... 
+2018-05-17 07:53:05 +0000  16336920 bytes for ./Assets.car
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_bg_dialog@2x.png ... 
+811 bytes for ./Bugtags.bundle/btg_bg_dialog@2x.png
+copying file ./Bugtags.bundle/btg_bg_tag@2x.png ... 
+1187 bytes for ./Bugtags.bundle/btg_bg_tag@2x.png
+copying file ./Bugtags.bundle/btg_btn_cancel@2x.png ... 
+321 bytes for ./Bugtags.bundle/btg_btn_cancel@2x.png
+copying file ./Bugtags.bundle/btg_btn_cancel_pressed@2x.png ... 
+347 bytes for ./Bugtags.bundle/btg_btn_cancel_pressed@2x.png
+copying file ./Bugtags.bundle/btg_btn_confirm@2x.png ... 
+255 bytes for ./Bugtags.bundle/btg_btn_confirm@2x.png
+copying file ./Bugtags.bundle/btg_btn_confirm_pressed@2x.png ... 
+267 bytes for ./Bugtags.bundle/btg_btn_confirm_pressed@2x.png
+copying file ./Bugtags.bundle/btg_capture.mp3 ... 
+7870 bytes for ./Bugtags.bundle/btg_capture.mp3
+copying file ./Bugtags.bundle/btg_icon_account@2x.png ... 
+1120 bytes for ./Bugtags.bundle/btg_icon_account@2x.png
+copying file ./Bugtags.bundle/btg_icon_arrow@2x.png ... 
+395 bytes for ./Bugtags.bundle/btg_icon_arrow@2x.png
+copying file ./Bugtags.bundle/btg_icon_arrow_left@2x.png ... 
+15122 bytes for ./Bugtags.bundle/btg_icon_arrow_left@2x.png
+copying file ./Bugtags.bundle/btg_icon_arrow_left_selected@2x.png ... 
+14978 bytes for ./Bugtags.bundle/btg_icon_arrow_left_selected@2x.png
+copying file ./Bugtags.bundle/btg_icon_arrow_right@2x.png ... 
+14915 bytes for ./Bugtags.bundle/btg_icon_arrow_right@2x.png
+copying file ./Bugtags.bundle/btg_icon_arrow_right_selected@2x.png ... 
+14859 bytes for ./Bugtags.bundle/btg_icon_arrow_right_selected@2x.png
+copying file ./Bugtags.bundle/btg_icon_arrow_selected@2x.png ... 
+2018-05-17 07:53:05 +0000  394 bytes for ./Bugtags.bundle/btg_icon_arrow_selected@2x.png
+copying file ./Bugtags.bundle/btg_icon_assistivebutton@2x.png ... 
+2018-05-17 07:53:05 +0000  11676 bytes for ./Bugtags.bundle/btg_icon_assistivebutton@2x.png
+copying file ./Bugtags.bundle/btg_icon_assistivebutton_pressed@2x.png ... 
+10652 bytes for ./Bugtags.bundle/btg_icon_assistivebutton_pressed@2x.png
+copying file ./Bugtags.bundle/btg_icon_assistivebutton_submit@2x.png ... 
+10945 bytes for ./Bugtags.bundle/btg_icon_assistivebutton_submit@2x.png
+copying file ./Bugtags.bundle/btg_icon_assistivebutton_submit_pressed@2x.png ... 
+2018-05-17 07:53:05 +0000  10006 bytes for ./Bugtags.bundle/btg_icon_assistivebutton_submit_pressed@2x.png
+copying file ./Bugtags.bundle/btg_icon_avatar_placeholder@2x.png ... 
+1154 bytes for ./Bugtags.bundle/btg_icon_avatar_placeholder@2x.png
+copying file ./Bugtags.bundle/btg_icon_cancel@2x.png ... 
+2648 bytes for ./Bugtags.bundle/btg_icon_cancel@2x.png
+copying file ./Bugtags.bundle/btg_icon_cancel_pressed@2x.png ... 
+2548 bytes for ./Bugtags.bundle/btg_icon_cancel_pressed@2x.png
+copying file ./Bugtags.bundle/btg_icon_captcha@2x.png ... 
+1281 bytes for ./Bugtags.bundle/btg_icon_captcha@2x.png
+copying file ./Bugtags.bundle/btg_icon_checkmark@2x.png ... 
+2018-05-17 07:53:05 +0000  895 bytes for ./Bugtags.bundle/btg_icon_checkmark@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_confirm@2x.png ... 
+2018-05-17 07:53:05 +0000  2432 bytes for ./Bugtags.bundle/btg_icon_confirm@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_confirm_pressed@2x.png ... 
+2018-05-17 07:53:05 +0000  2766 bytes for ./Bugtags.bundle/btg_icon_confirm_pressed@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_delete@2x.png ... 
+2018-05-17 07:53:05 +0000  952 bytes for ./Bugtags.bundle/btg_icon_delete@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_delete_selected@2x.png ... 
+2018-05-17 07:53:05 +0000  655 bytes for ./Bugtags.bundle/btg_icon_delete_selected@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_exchange@2x.png ... 
+2018-05-17 07:53:05 +0000  343 bytes for ./Bugtags.bundle/btg_icon_exchange@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_exchange_pressed@2x.png ... 
+2018-05-17 07:53:05 +0000  321 bytes for ./Bugtags.bundle/btg_icon_exchange_pressed@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_issue_type_1@2x.png ... 
+2018-05-17 07:53:05 +0000  1364 bytes for ./Bugtags.bundle/btg_icon_issue_type_1@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_issue_type_2@2x.png ... 
+2018-05-17 07:53:05 +0000  1164 bytes for ./Bugtags.bundle/btg_icon_issue_type_2@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_password@2x.png ... 
+2018-05-17 07:53:05 +0000  1022 bytes for ./Bugtags.bundle/btg_icon_password@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_priority_0@2x.png ... 
+2018-05-17 07:53:05 +0000  491 bytes for ./Bugtags.bundle/btg_icon_priority_0@2x.png
+copying file ./Bugtags.bundle/btg_icon_priority_0_normal@2x.png ... 
+2018-05-17 07:53:05 +0000  1204 bytes for ./Bugtags.bundle/btg_icon_priority_0_normal@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_priority_0_selected@2x.png ... 
+2018-05-17 07:53:05 +0000  1051 bytes for ./Bugtags.bundle/btg_icon_priority_0_selected@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_priority_1@2x.png ... 
+2018-05-17 07:53:05 +0000  495 bytes for ./Bugtags.bundle/btg_icon_priority_1@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_priority_1_normal@2x.png ... 
+2018-05-17 07:53:05 +0000  1186 bytes for ./Bugtags.bundle/btg_icon_priority_1_normal@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_priority_1_selected@2x.png ... 
+2018-05-17 07:53:05 +0000  1044 bytes for ./Bugtags.bundle/btg_icon_priority_1_selected@2x.png
+copying file ./Bugtags.bundle/btg_icon_priority_2@2x.png ... 
+2018-05-17 07:53:05 +0000  485 bytes for ./Bugtags.bundle/btg_icon_priority_2@2x.png
+copying file ./Bugtags.bundle/btg_icon_priority_2_normal@2x.png ... 
+2018-05-17 07:53:05 +0000  1207 bytes for ./Bugtags.bundle/btg_icon_priority_2_normal@2x.png
+copying file ./Bugtags.bundle/btg_icon_priority_2_selected@2x.png ... 
+2018-05-17 07:53:05 +0000  1257 bytes for ./Bugtags.bundle/btg_icon_priority_2_selected@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_priority_3@2x.png ... 
+2018-05-17 07:53:05 +0000  490 bytes for ./Bugtags.bundle/btg_icon_priority_3@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_priority_3_normal@2x.png ... 
+2018-05-17 07:53:05 +0000  1116 bytes for ./Bugtags.bundle/btg_icon_priority_3_normal@2x.png
+copying file ./Bugtags.bundle/btg_icon_priority_3_selected@2x.png ... 
+2018-05-17 07:53:05 +0000  1029 bytes for ./Bugtags.bundle/btg_icon_priority_3_selected@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_quicksignin@2x.png ... 
+2018-05-17 07:53:05 +0000  809 bytes for ./Bugtags.bundle/btg_icon_quicksignin@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_quicksignin_selected@2x.png ... 
+2018-05-17 07:53:05 +0000  995 bytes for ./Bugtags.bundle/btg_icon_quicksignin_selected@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_report@2x.png ... 
+2018-05-17 07:53:05 +0000  2423 bytes for ./Bugtags.bundle/btg_icon_report@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_report_pressed@2x.png ... 
+2018-05-17 07:53:05 +0000  2644 bytes for ./Bugtags.bundle/btg_icon_report_pressed@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_tag_pin@2x.png ... 
+2018-05-17 07:53:05 +0000  722 bytes for ./Bugtags.bundle/btg_icon_tag_pin@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_tag_type_1@2x.png ... 
+2018-05-17 07:53:05 +0000  3060 bytes for ./Bugtags.bundle/btg_icon_tag_type_1@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_tag_type_2@2x.png ... 
+2018-05-17 07:53:05 +0000  1126 bytes for ./Bugtags.bundle/btg_icon_tag_type_2@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_tips_tag_1@2x.png ... 
+2018-05-17 07:53:05 +0000  2195 bytes for ./Bugtags.bundle/btg_icon_tips_tag_1@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_tips_tag_2@2x.png ... 
+2018-05-17 07:53:05 +0000  1132 bytes for ./Bugtags.bundle/btg_icon_tips_tag_2@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_tips_tag_3@2x.png ... 
+2018-05-17 07:53:05 +0000  1373 bytes for ./Bugtags.bundle/btg_icon_tips_tag_3@2x.png
+copying file ./Bugtags.bundle/btg_icon_user@2x.png ... 
+2018-05-17 07:53:05 +0000  2629 bytes for ./Bugtags.bundle/btg_icon_user@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_icon_user_pressed@2x.png ... 
+2018-05-17 07:53:05 +0000  2572 bytes for ./Bugtags.bundle/btg_icon_user_pressed@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_line@2x.png ... 
+2018-05-17 07:53:05 +0000  140 bytes for ./Bugtags.bundle/btg_line@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_line_vertical@2x.png ... 
+2018-05-17 07:53:05 +0000  139 bytes for ./Bugtags.bundle/btg_line_vertical@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/btg_logo@2x.png ... 
+2018-05-17 07:53:05 +0000  4538 bytes for ./Bugtags.bundle/btg_logo@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/BTGCreateTagView-Landscape.nib ... 
+2018-05-17 07:53:05 +0000  9081 bytes for ./Bugtags.bundle/BTGCreateTagView-Landscape.nib
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/BTGCreateTagView.nib ... 
+2018-05-17 07:53:05 +0000  9098 bytes for ./Bugtags.bundle/BTGCreateTagView.nib
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/BTGCreateTagView~ipad.nib ... 
+2018-05-17 07:53:05 +0000  9203 bytes for ./Bugtags.bundle/BTGCreateTagView~ipad.nib
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/BTGSignInViewController.nib ... 
+2018-05-17 07:53:05 +0000  6003 bytes for ./Bugtags.bundle/BTGSignInViewController.nib
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/BTGSignInViewController~ipad.nib ... 
+2018-05-17 07:53:05 +0000  6012 bytes for ./Bugtags.bundle/BTGSignInViewController~ipad.nib
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/BTGTagTipsView.nib ... 
+2018-05-17 07:53:05 +0000  3946 bytes for ./Bugtags.bundle/BTGTagTipsView.nib
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/BTGTagTipsView~ipad.nib ... 
+2018-05-17 07:53:05 +0000  3956 bytes for ./Bugtags.bundle/BTGTagTipsView~ipad.nib
+copying file ./Bugtags.bundle/Bugtags_dsym_autoupload.sh ... 
+2018-05-17 07:53:05 +0000  4059 bytes for ./Bugtags.bundle/Bugtags_dsym_autoupload.sh
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/en.lproj/Localizable.strings ... 
+2018-05-17 07:53:05 +0000  1477 bytes for ./Bugtags.bundle/en.lproj/Localizable.strings
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/zh-Hans.lproj/Localizable.strings ... 
+2018-05-17 07:53:05 +0000  1523 bytes for ./Bugtags.bundle/zh-Hans.lproj/Localizable.strings
+2018-05-17 07:53:05 +0000  copying file ./Bugtags.bundle/zh-Hant.lproj/Localizable.strings ... 
+2018-05-17 07:53:05 +0000  1523 bytes for ./Bugtags.bundle/zh-Hant.lproj/Localizable.strings
+2018-05-17 07:53:05 +0000  copying file ./embedded.mobileprovision ... 
+2018-05-17 07:53:05 +0000  10163 bytes for ./embedded.mobileprovision
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/ADGifLoading.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  2528 bytes for ./Frameworks/ADGifLoading.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/ADGifLoading.framework/ADGifLoading ... 
+2018-05-17 07:53:05 +0000  359504 bytes for ./Frameworks/ADGifLoading.framework/ADGifLoading
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/ADGifLoading.framework/ADGifLoading.bundle/Info.plist ... 
+2018-05-17 07:53:05 +0000  722 bytes for ./Frameworks/ADGifLoading.framework/ADGifLoading.bundle/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/ADGifLoading.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  747 bytes for ./Frameworks/ADGifLoading.framework/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  2202 bytes for ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/AFNetworking.framework/AFNetworking ... 
+2018-05-17 07:53:05 +0000  2748048 bytes for ./Frameworks/AFNetworking.framework/AFNetworking
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/AFNetworking.framework/Info.plist ... 
+747 bytes for ./Frameworks/AFNetworking.framework/Info.plist
+copying file ./Frameworks/AnimatedGIFImageSerialization.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/AnimatedGIFImageSerialization.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization ... 
+2018-05-17 07:53:05 +0000  381264 bytes for ./Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/AnimatedGIFImageSerialization.framework/Info.plist ... 
+783 bytes for ./Frameworks/AnimatedGIFImageSerialization.framework/Info.plist
+copying file ./Frameworks/FBRetainCycleDetector.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/FBRetainCycleDetector.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector ... 
+2018-05-17 07:53:05 +0000  1232768 bytes for ./Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector
+copying file ./Frameworks/FBRetainCycleDetector.framework/Info.plist ... 
+767 bytes for ./Frameworks/FBRetainCycleDetector.framework/Info.plist
+copying file ./Frameworks/FMDB.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  2202 bytes for ./Frameworks/FMDB.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/FMDB.framework/FMDB ... 
+2018-05-17 07:53:05 +0000  970464 bytes for ./Frameworks/FMDB.framework/FMDB
+copying file ./Frameworks/FMDB.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  731 bytes for ./Frameworks/FMDB.framework/Info.plist
+copying file ./Frameworks/GVUserDefaults.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/GVUserDefaults.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/GVUserDefaults.framework/GVUserDefaults ... 
+379056 bytes for ./Frameworks/GVUserDefaults.framework/GVUserDefaults
+copying file ./Frameworks/GVUserDefaults.framework/Info.plist ... 
+751 bytes for ./Frameworks/GVUserDefaults.framework/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources ... 
+6350 bytes for ./Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/IQKeyboardManager.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  759 bytes for ./Frameworks/IQKeyboardManager.framework/Info.plist
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager ... 
+2018-05-17 07:53:05 +0000  1546048 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/de.lproj/IQKeyboardManager.strings ... 
+2018-05-17 07:53:05 +0000  489 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/de.lproj/IQKeyboardManager.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/en.lproj/IQKeyboardManager.strings ... 
+2018-05-17 07:53:05 +0000  474 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/en.lproj/IQKeyboardManager.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/es.lproj/IQKeyboardManager.strings ... 
+2018-05-17 07:53:05 +0000  496 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/es.lproj/IQKeyboardManager.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/fr.lproj/IQKeyboardManager.strings ... 
+2018-05-17 07:53:05 +0000  497 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/fr.lproj/IQKeyboardManager.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png ... 
+2018-05-17 07:53:05 +0000  1793 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png ... 
+2018-05-17 07:53:05 +0000  1815 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png ... 
+2018-05-17 07:53:05 +0000  1786 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png ... 
+2018-05-17 07:53:05 +0000  1844 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/zh-Hans/IQKeyboardManager.strings ... 
+2018-05-17 07:53:05 +0000  479 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/zh-Hans/IQKeyboardManager.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/zh-Hant/IQKeyboardManager.strings ... 
+2018-05-17 07:53:05 +0000  479 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/zh-Hant/IQKeyboardManager.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/Masonry.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  2202 bytes for ./Frameworks/Masonry.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/Masonry.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  737 bytes for ./Frameworks/Masonry.framework/Info.plist
+copying file ./Frameworks/Masonry.framework/Masonry ... 
+2018-05-17 07:53:05 +0000  1081408 bytes for ./Frameworks/Masonry.framework/Masonry
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJExtension.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  2202 bytes for ./Frameworks/MJExtension.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJExtension.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  746 bytes for ./Frameworks/MJExtension.framework/Info.plist
+copying file ./Frameworks/MJExtension.framework/MJExtension ... 
+2018-05-17 07:53:05 +0000  916352 bytes for ./Frameworks/MJExtension.framework/MJExtension
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJRefresh.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  3917 bytes for ./Frameworks/MJRefresh.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJRefresh.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  742 bytes for ./Frameworks/MJRefresh.framework/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJRefresh.framework/MJRefresh ... 
+2018-05-17 07:53:05 +0000  1293680 bytes for ./Frameworks/MJRefresh.framework/MJRefresh
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png ... 
+1033 bytes for ./Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings ... 
+2018-05-17 07:53:05 +0000  1372 bytes for ./Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings ... 
+2018-05-17 07:53:05 +0000  1194 bytes for ./Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings ... 
+2018-05-17 07:53:05 +0000  773 bytes for ./Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MLeaksFinder.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  2202 bytes for ./Frameworks/MLeaksFinder.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MLeaksFinder.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  747 bytes for ./Frameworks/MLeaksFinder.framework/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/MLeaksFinder.framework/MLeaksFinder ... 
+2018-05-17 07:53:05 +0000  517088 bytes for ./Frameworks/MLeaksFinder.framework/MLeaksFinder
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/pop.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  2202 bytes for ./Frameworks/pop.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/pop.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  729 bytes for ./Frameworks/pop.framework/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/pop.framework/pop ... 
+2018-05-17 07:53:05 +0000  2334032 bytes for ./Frameworks/pop.framework/pop
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/SDCycleScrollView.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SDCycleScrollView.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SDCycleScrollView.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  760 bytes for ./Frameworks/SDCycleScrollView.framework/Info.plist
+copying file ./Frameworks/SDCycleScrollView.framework/SDCycleScrollView ... 
+2018-05-17 07:53:05 +0000  883328 bytes for ./Frameworks/SDCycleScrollView.framework/SDCycleScrollView
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:05 +0000  2202 bytes for ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SDWebImage.framework/Info.plist ... 
+2018-05-17 07:53:05 +0000  743 bytes for ./Frameworks/SDWebImage.framework/Info.plist
+copying file ./Frameworks/SDWebImage.framework/SDWebImage ... 
+2018-05-17 07:53:05 +0000  2090944 bytes for ./Frameworks/SDWebImage.framework/SDWebImage
+2018-05-17 07:53:05 +0000  copying file ./Frameworks/SensorsAnalyticsSDK.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SensorsAnalyticsSDK.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SensorsAnalyticsSDK.framework/Info.plist ... 
+763 bytes for ./Frameworks/SensorsAnalyticsSDK.framework/Info.plist
+copying file ./Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK ... 
+2018-05-17 07:53:05 +0000  4649120 bytes for ./Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK
+2018-05-17 07:53:05 +0000  copying file ./HW_IncomeSaleHeadView.nib ... 
+4539 bytes for ./HW_IncomeSaleHeadView.nib
+copying file ./HW_IncomeShopOrderHeadView.nib ... 
+3667 bytes for ./HW_IncomeShopOrderHeadView.nib
+copying file ./hwmc.db ... 
+2018-05-17 07:53:05 +0000  2539520 bytes for ./hwmc.db
+2018-05-17 07:53:05 +0000  copying file ./hwmc.momd/hwmc.mom ... 
+513 bytes for ./hwmc.momd/hwmc.mom
+copying file ./hwmc.momd/hwmc.omo ... 
+696 bytes for ./hwmc.momd/hwmc.omo
+copying file ./hwmc.momd/VersionInfo.plist ... 
+2018-05-17 07:53:05 +0000  145 bytes for ./hwmc.momd/VersionInfo.plist
+copying file ./hwmc_test ... 
+2018-05-17 07:53:05 +0000  11715584 bytes for ./hwmc_test
+2018-05-17 07:53:05 +0000  copying file ./IncomeUI.storyboardc/fQ5-X9-UYU-view-K7q-y8-rgD.nib ... 
+2018-05-17 07:53:05 +0000  27057 bytes for ./IncomeUI.storyboardc/fQ5-X9-UYU-view-K7q-y8-rgD.nib
+copying file ./IncomeUI.storyboardc/Gsn-Mn-uKU-view-fdO-ac-TGQ.nib ... 
+2018-05-17 07:53:05 +0000  8055 bytes for ./IncomeUI.storyboardc/Gsn-Mn-uKU-view-fdO-ac-TGQ.nib
+2018-05-17 07:53:05 +0000  copying file ./IncomeUI.storyboardc/HW_IncomeController.nib ... 
+2018-05-17 07:53:05 +0000  1028 bytes for ./IncomeUI.storyboardc/HW_IncomeController.nib
+2018-05-17 07:53:05 +0000  copying file ./IncomeUI.storyboardc/HW_IncomeGetMoneyController.nib ... 
+2018-05-17 07:53:05 +0000  1036 bytes for ./IncomeUI.storyboardc/HW_IncomeGetMoneyController.nib
+2018-05-17 07:53:05 +0000  copying file ./IncomeUI.storyboardc/HW_IncomeVerifiedController.nib ... 
+1036 bytes for ./IncomeUI.storyboardc/HW_IncomeVerifiedController.nib
+copying file ./IncomeUI.storyboardc/HW_IndexMineController.nib ... 
+2018-05-17 07:53:05 +0000  1001 bytes for ./IncomeUI.storyboardc/HW_IndexMineController.nib
+2018-05-17 07:53:05 +0000  copying file ./IncomeUI.storyboardc/Info.plist ... 
+2018-05-17 07:53:05 +0000  358 bytes for ./IncomeUI.storyboardc/Info.plist
+copying file ./IncomeUI.storyboardc/mkL-4s-k57-view-JjF-x2-dWF.nib ... 
+2018-05-17 07:53:05 +0000  20787 bytes for ./IncomeUI.storyboardc/mkL-4s-k57-view-JjF-x2-dWF.nib
+2018-05-17 07:53:05 +0000  copying file ./IncomeUI.storyboardc/PXo-WQ-VmJ-view-A0O-8Z-FNs.nib ... 
+2018-05-17 07:53:05 +0000  9536 bytes for ./IncomeUI.storyboardc/PXo-WQ-VmJ-view-A0O-8Z-FNs.nib
+2018-05-17 07:53:05 +0000  copying file ./Info.plist ... 
+2018-05-17 07:53:05 +0000  1859 bytes for ./Info.plist
+2018-05-17 07:53:05 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-17 07:53:05 +0000  4252 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-05-17 07:53:05 +0000  copying file ./LaunchScreen.storyboardc/Info.plist ... 
+2018-05-17 07:53:05 +0000  193 bytes for ./LaunchScreen.storyboardc/Info.plist
+copying file ./LaunchScreen.storyboardc/LaunchScreen.nib ... 
+2018-05-17 07:53:05 +0000  909 bytes for ./LaunchScreen.storyboardc/LaunchScreen.nib
+2018-05-17 07:53:05 +0000  copying file ./loading_haowumc.gif ... 
+2018-05-17 07:53:05 +0000  98678 bytes for ./loading_haowumc.gif
+2018-05-17 07:53:05 +0000  copying file ./Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-17 07:53:05 +0000  1791 bytes for ./Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-05-17 07:53:05 +0000  copying file ./Main.storyboardc/Info.plist ... 
+2018-05-17 07:53:05 +0000  258 bytes for ./Main.storyboardc/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-05-17 07:53:05 +0000  916 bytes for ./Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-05-17 07:53:05 +0000  copying file ./PkgInfo ... 
+2018-05-17 07:53:05 +0000  8 bytes for ./PkgInfo
+2018-05-17 07:53:05 +0000  copying file ./PlaceUI.storyboardc/2WH-Va-aux-view-hDe-Wr-fGH.nib ... 
+2018-05-17 07:53:05 +0000  11433 bytes for ./PlaceUI.storyboardc/2WH-Va-aux-view-hDe-Wr-fGH.nib
+copying file ./PlaceUI.storyboardc/HW_MinePlaceDetailController.nib ... 
+2018-05-17 07:53:05 +0000  1037 bytes for ./PlaceUI.storyboardc/HW_MinePlaceDetailController.nib
+copying file ./PlaceUI.storyboardc/Info.plist ... 
+2018-05-17 07:53:05 +0000  181 bytes for ./PlaceUI.storyboardc/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./ReadMeFile ... 
+2018-05-17 07:53:05 +0000  675 bytes for ./ReadMeFile
+2018-05-17 07:53:05 +0000  copying file ./ShopCar.storyboardc/7JN-um-oJn-view-JIL-sy-Scr.nib ... 
+2018-05-17 07:53:05 +0000  7399 bytes for ./ShopCar.storyboardc/7JN-um-oJn-view-JIL-sy-Scr.nib
+copying file ./ShopCar.storyboardc/HW_OrderSuccessController.nib ... 
+2018-05-17 07:53:05 +0000  1034 bytes for ./ShopCar.storyboardc/HW_OrderSuccessController.nib
+2018-05-17 07:53:05 +0000  copying file ./ShopCar.storyboardc/Info.plist ... 
+2018-05-17 07:53:05 +0000  175 bytes for ./ShopCar.storyboardc/Info.plist
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/en.lproj/Localizable.strings ... 
+2018-05-17 07:53:05 +0000  2444 bytes for ./TZImagePickerController.bundle/en.lproj/Localizable.strings
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/MMVideoPreviewPlay@2x.png ... 
+2018-05-17 07:53:05 +0000  3645 bytes for ./TZImagePickerController.bundle/MMVideoPreviewPlay@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/MMVideoPreviewPlayHL@2x.png ... 
+2018-05-17 07:53:05 +0000  3645 bytes for ./TZImagePickerController.bundle/MMVideoPreviewPlayHL@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/navi_back@2x.png ... 
+2018-05-17 07:53:05 +0000  116 bytes for ./TZImagePickerController.bundle/navi_back@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/photo_def_photoPickerVc@2x.png ... 
+2018-05-17 07:53:05 +0000  1155 bytes for ./TZImagePickerController.bundle/photo_def_photoPickerVc@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/photo_def_previewVc@2x.png ... 
+2018-05-17 07:53:05 +0000  1155 bytes for ./TZImagePickerController.bundle/photo_def_previewVc@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/photo_number_icon@2x.png ... 
+2018-05-17 07:53:05 +0000  501 bytes for ./TZImagePickerController.bundle/photo_number_icon@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/photo_original_def@2x.png ... 
+2018-05-17 07:53:05 +0000  1602 bytes for ./TZImagePickerController.bundle/photo_original_def@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/photo_original_sel@2x.png ... 
+2018-05-17 07:53:05 +0000  620 bytes for ./TZImagePickerController.bundle/photo_original_sel@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/photo_sel_photoPickerVc@2x.png ... 
+2018-05-17 07:53:05 +0000  1006 bytes for ./TZImagePickerController.bundle/photo_sel_photoPickerVc@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/photo_sel_previewVc@2x.png ... 
+2018-05-17 07:53:05 +0000  1183 bytes for ./TZImagePickerController.bundle/photo_sel_previewVc@2x.png
+copying file ./TZImagePickerController.bundle/preview_number_icon@2x.png ... 
+2018-05-17 07:53:05 +0000  501 bytes for ./TZImagePickerController.bundle/preview_number_icon@2x.png
+copying file ./TZImagePickerController.bundle/preview_original_def@2x.png ... 
+2018-05-17 07:53:05 +0000  392 bytes for ./TZImagePickerController.bundle/preview_original_def@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/Root.plist ... 
+2018-05-17 07:53:05 +0000  1456 bytes for ./TZImagePickerController.bundle/Root.plist
+copying file ./TZImagePickerController.bundle/TableViewArrow@2x.png ... 
+2018-05-17 07:53:05 +0000  299 bytes for ./TZImagePickerController.bundle/TableViewArrow@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/takePicture@2x.png ... 
+2018-05-17 07:53:05 +0000  5924 bytes for ./TZImagePickerController.bundle/takePicture@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/VideoSendIcon@2x.png ... 
+2018-05-17 07:53:05 +0000  223 bytes for ./TZImagePickerController.bundle/VideoSendIcon@2x.png
+2018-05-17 07:53:05 +0000  copying file ./TZImagePickerController.bundle/zh-Hans.lproj/Localizable.strings ... 
+2018-05-17 07:53:05 +0000  1792 bytes for ./TZImagePickerController.bundle/zh-Hans.lproj/Localizable.strings
+2018-05-17 07:53:05 +0000  copying file ./UMSocialSDKPromptResources.bundle/en.lproj/UMSocialPromptLocalizable.strings ... 
+2018-05-17 07:53:05 +0000  8304 bytes for ./UMSocialSDKPromptResources.bundle/en.lproj/UMSocialPromptLocalizable.strings
+2018-05-17 07:53:05 +0000  copying file ./UMSocialSDKPromptResources.bundle/zh-Hans.lproj/UMSocialPromptLocalizable.strings ... 
+2018-05-17 07:53:05 +0000  8304 bytes for ./UMSocialSDKPromptResources.bundle/zh-Hans.lproj/UMSocialPromptLocalizable.strings
+2018-05-17 07:53:05 +0000  /usr/bin/ditto exited with 0
+2018-05-17 07:53:05 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeda735b10 'org.cocoapods.ADGifLoading' '<DVTFilePath:0x7fef00686370:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/ADGifLoading.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb10be60 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7feee6611c80:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AFNetworking.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fef139cdf60 'org.cocoapods.AnimatedGIFImageSerialization' '<DVTFilePath:0x7fef208c11c0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feee675fec0 'org.cocoapods.FBRetainCycleDetector' '<DVTFilePath:0x7feed58c67f0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeea3147c0 'org.cocoapods.FMDB' '<DVTFilePath:0x7feee8647320:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FMDB.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fef40f59f40 'org.cocoapods.GVUserDefaults' '<DVTFilePath:0x7fef2436f920:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/GVUserDefaults.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feee65fb0d0 'org.cocoapods.IQKeyboardManager' '<DVTFilePath:0x7feed8269be0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/IQKeyboardManager.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feefa817a00 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fef02e2e170:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJExtension.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feef979de40 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fef030f2a60:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJRefresh.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feefdbebfe0 'org.cocoapods.MLeaksFinder' '<DVTFilePath:0x7feefb749b70:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MLeaksFinder.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeea31ae10 'org.cocoapods.Masonry' '<DVTFilePath:0x7feefe240ae0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/Masonry.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeda838850 'org.cocoapods.SDCycleScrollView' '<DVTFilePath:0x7feee69c2890:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDCycleScrollView.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fef32bbee60 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7feefaf9a180:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDWebImage.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feefe4df760 'org.cocoapods.SensorsAnalyticsSDK' '<DVTFilePath:0x7feefbce9880:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework'>'>
+2018-05-17 07:53:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fef0044d160 'org.cocoapods.pop' '<DVTFilePath:0x7feef932aed0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/pop.framework'>'>
+2018-05-17 07:53:05 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-05-17 07:53:05 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-05-17 07:53:05 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-05-17 07:53:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root' '--json' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool-json-filepath-qFAAZ1' '--compile-bitcode' '--output' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/IDEIPAProcessor.AppThinning.WKH' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-05-17 07:53:05 +0000  ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]
+2018-05-17 07:53:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1602: warning: assigned but unused variable - sourceVersion
+2018-05-17 07:53:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1703: warning: shadowing outer local variable - node
+2018-05-17 07:53:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoImage
+2018-05-17 07:53:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - transformer
+2018-05-17 07:53:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2912: warning: assigned but unused variable - exc
+2018-05-17 07:53:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:738: warning: assigned but unused variable - output
+2018-05-17 07:53:05 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-05-17 07:53:05 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-05-17 07:53:05 +0000  OS X 10.12.6 16G1314
+2018-05-17 07:53:05 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "COMMAND_MODE"=>"unix2003", "TMPDIR"=>"/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/", "LOGNAME"=>"zd-pro", "MallocNanoZone"=>"0", "HOME"=>"/Users/zd-pro", "XPC_FLAGS"=>"0x0", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.14qozCRdxh/Render", "USER"=>"zd-pro", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.SLKzwZwVJD/Listeners", "SECURITYSESSIONID"=>"186a7", "XPC_SERVICE_NAME"=>"com.apple.xpc.launchd.oneshot.0x10000001.Xcode", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root", "--json", "/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool-json-filepath-qFAAZ1", "--compile-bitcode", "--output", "/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/IDEIPAProcessor.AppThinning.WKH", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-05-17 07:53:05 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-05-17 07:53:05 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-05-17 07:53:05 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-05-17 07:53:05 +0000  
+2018-05-17 07:53:05 +0000  Scanning IPA...
+2018-05-17 07:53:06 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature ADGifLoading
+2018-05-17 07:53:06 +0000      /usr/bin/python exited with pid 1912 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:06 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) ADGifLoading ADGifLoading
+2018-05-17 07:53:06 +0000      /usr/bin/python exited with pid 1913 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:07 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature AFNetworking
+2018-05-17 07:53:07 +0000      /usr/bin/python exited with pid 1940 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:07 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AFNetworking AFNetworking
+2018-05-17 07:53:07 +0000      /usr/bin/python exited with pid 1943 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:07 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature AnimatedGIFImageSerialization
+2018-05-17 07:53:07 +0000      /usr/bin/python exited with pid 1964 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:07 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AnimatedGIFImageSerialization AnimatedGIFImageSerialization
+2018-05-17 07:53:07 +0000      /usr/bin/python exited with pid 1969 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:07 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature FBRetainCycleDetector
+2018-05-17 07:53:07 +0000      /usr/bin/python exited with pid 1987 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:07 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) FBRetainCycleDetector FBRetainCycleDetector
+2018-05-17 07:53:07 +0000      /usr/bin/python exited with pid 1988 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:07 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature FMDB
+2018-05-17 07:53:07 +0000      /usr/bin/python exited with pid 2013 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:07 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) FMDB FMDB
+2018-05-17 07:53:07 +0000      /usr/bin/python exited with pid 2017 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature GVUserDefaults
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2032 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) GVUserDefaults GVUserDefaults
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2038 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature IQKeyboardManager
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2075 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist IQKeyboardManager
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2080 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) IQKeyboardManager IQKeyboardManager
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2084 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature Masonry
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2103 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist Masonry
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2104 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Masonry Masonry
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2107 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature MJExtension
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2133 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist MJExtension
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2134 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:08 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) MJExtension MJExtension
+2018-05-17 07:53:08 +0000      /usr/bin/python exited with pid 2136 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature MJRefresh
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2169 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist MJRefresh
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2170 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) MJRefresh MJRefresh
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2172 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature MLeaksFinder
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2193 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist MLeaksFinder
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2197 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) MLeaksFinder MLeaksFinder
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2201 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature pop
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2217 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist pop
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2222 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) pop pop
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2225 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature SDCycleScrollView
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2249 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist SDCycleScrollView
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2250 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:09 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) SDCycleScrollView SDCycleScrollView
+2018-05-17 07:53:09 +0000      /usr/bin/python exited with pid 2251 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:10 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature SDWebImage
+2018-05-17 07:53:10 +0000      /usr/bin/python exited with pid 2279 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:10 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist SDWebImage
+2018-05-17 07:53:10 +0000      /usr/bin/python exited with pid 2280 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:10 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) SDWebImage SDWebImage
+2018-05-17 07:53:10 +0000      /usr/bin/python exited with pid 2282 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:10 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature SensorsAnalyticsSDK
+2018-05-17 07:53:10 +0000      /usr/bin/python exited with pid 2303 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:10 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist SensorsAnalyticsSDK
+2018-05-17 07:53:10 +0000      /usr/bin/python exited with pid 2307 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:10 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) SensorsAnalyticsSDK SensorsAnalyticsSDK
+2018-05-17 07:53:10 +0000      /usr/bin/python exited with pid 2311 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2409 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon20x20@2x.png hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2410 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon20x20@3x.png hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2411 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon29x29@2x.png hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2413 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon29x29@3x.png hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2414 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon40x40@2x.png hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2415 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon40x40@3x.png hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2418 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon60x60@2x.png hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2422 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon60x60@3x.png hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2424 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) archived-expanded-entitlements.xcent hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2428 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Assets.car hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2432 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Bugtags.bundle hwmc_test
+2018-05-17 07:53:11 +0000  
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2434 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) embedded.mobileprovision hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2436 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Frameworks hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2437 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) HW_IncomeSaleHeadView.nib hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2438 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) HW_IncomeShopOrderHeadView.nib hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2440 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) hwmc.db hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2442 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) hwmc.momd hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2445 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-05-17 07:53:11 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) hwmc_test hwmc_test
+2018-05-17 07:53:11 +0000      /usr/bin/python exited with pid 2448 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-05-17 07:53:12 +0000  Complete LinkageGraph:
+    hwmc_test.app/hwmc_test armv7 ->
+        hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading armv7
+        hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking armv7
+        hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization armv7
+        hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector armv7
+        hwmc_test.app/Frameworks/FMDB.framework/FMDB armv7
+        hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults armv7
+        hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager armv7
+        hwmc_test.app/Frameworks/MJExtension.framework/MJExtension armv7
+        hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh armv7
+        hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder armv7
+        hwmc_test.app/Frameworks/Masonry.framework/Masonry armv7
+        hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView armv7
+        hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage armv7
+        hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK armv7
+        hwmc_test.app/Frameworks/pop.framework/pop armv7
+    hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading armv7 ->
+        hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization armv7
+    hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization armv7 ->
+    
+    hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking armv7 ->
+    
+    hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector armv7 ->
+    
+    hwmc_test.app/Frameworks/FMDB.framework/FMDB armv7 ->
+    
+    hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults armv7 ->
+    
+    hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager armv7 ->
+    
+    hwmc_test.app/Frameworks/MJExtension.framework/MJExtension armv7 ->
+    
+    hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh armv7 ->
+    
+    hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder armv7 ->
+        hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector armv7
+    hwmc_test.app/Frameworks/Masonry.framework/Masonry armv7 ->
+    
+    hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView armv7 ->
+        hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage armv7
+    hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage armv7 ->
+    
+    hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK armv7 ->
+    
+    hwmc_test.app/Frameworks/pop.framework/pop armv7 ->
+    
+    hwmc_test.app/hwmc_test arm64 ->
+        hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading arm64
+        hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking arm64
+        hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization arm64
+        hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector arm64
+        hwmc_test.app/Frameworks/FMDB.framework/FMDB arm64
+        hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults arm64
+        hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager arm64
+        hwmc_test.app/Frameworks/MJExtension.framework/MJExtension arm64
+        hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh arm64
+        hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder arm64
+        hwmc_test.app/Frameworks/Masonry.framework/Masonry arm64
+        hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView arm64
+        hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage arm64
+        hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK arm64
+        hwmc_test.app/Frameworks/pop.framework/pop arm64
+    hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading arm64 ->
+        hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization arm64
+    hwmc_test.app/Fra
+2018-05-17 07:53:12 +0000  meworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization arm64 ->
+    
+    hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking arm64 ->
+    
+    hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector arm64 ->
+    
+    hwmc_test.app/Frameworks/FMDB.framework/FMDB arm64 ->
+    
+    hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults arm64 ->
+    
+    hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager arm64 ->
+    
+    hwmc_test.app/Frameworks/MJExtension.framework/MJExtension arm64 ->
+    
+    hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh arm64 ->
+    
+    hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder arm64 ->
+        hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector arm64
+    hwmc_test.app/Frameworks/Masonry.framework/Masonry arm64 ->
+    
+    hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView arm64 ->
+        hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage arm64
+    hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage arm64 ->
+    
+    hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK arm64 ->
+    
+    hwmc_test.app/Frameworks/pop.framework/pop arm64 ->
+2018-05-17 07:53:12 +0000  Validating IPA structure...
+2018-05-17 07:53:17 +0000  Compiling bitcode...
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3009 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3014 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3018 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3022 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3026 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3030 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3034 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3038 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/FMDB.framework/FMDB /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/FMDB.framework/FMDB
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3042 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/FMDB.framework/FMDB /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/FMDB.framework/FMDB
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3046 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3050 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults
+2018-05-17 07:53:17 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3054 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:17 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3058 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager
+2018-05-17 07:53:18 +0000  
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3062 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/Masonry.framework/Masonry /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/Masonry.framework/Masonry
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3066 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/Masonry.framework/Masonry /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/Masonry.framework/Masonry
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3070 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/MJExtension.framework/MJExtension /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/MJExtension.framework/MJExtension
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3074 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/MJExtension.framework/MJExtension /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/MJExtension.framework/MJExtension
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3078 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3082 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3086 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3090 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3094 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/pop.framework/pop /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/pop.framework/pop
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3099 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/pop.framework/pop /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/pop.framework/pop
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3103 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3107 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3111 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3115 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3119 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/armv7/Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3123 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -r -o /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/ipatool20180517-1792-poepxg/thinned/arm64/Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK
+2018-05-17 07:53:18 +0000          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with pid 3127 exit 0
+        Stdout:
+        
+        Stderr:
+2018-05-17 07:53:18 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/IDEIPAProcessor.AppThinning.WKH/universal
+  Copying hwmc_test.app output payload directory
+2018-05-17 07:53:18 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2018-05-17 07:53:18 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2817;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+        "/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Assets.car"
+    );
+    universalIPA =     {
+        path = "/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/IDEIPAProcessor.AppThinning.WKH/universal";
+    };
+}
+2018-05-17 07:53:18 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-05-17 07:53:18 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-05-17 07:53:19 +0000  Processing step: IDEDistributionSymbolsStep
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-17 07:53:19 +0000  Processing step: IDEDistributionAppThinningStep
+2018-05-17 07:53:19 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-05-17 07:53:19 +0000  Processing step: IDEDistributionODRStep
+2018-05-17 07:53:19 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeda735b10 'org.cocoapods.ADGifLoading' '<DVTFilePath:0x7fef00686370:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/ADGifLoading.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb10be60 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7feee6611c80:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AFNetworking.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fef139cdf60 'org.cocoapods.AnimatedGIFImageSerialization' '<DVTFilePath:0x7fef208c11c0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feee675fec0 'org.cocoapods.FBRetainCycleDetector' '<DVTFilePath:0x7feed58c67f0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeea3147c0 'org.cocoapods.FMDB' '<DVTFilePath:0x7feee8647320:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FMDB.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fef40f59f40 'org.cocoapods.GVUserDefaults' '<DVTFilePath:0x7fef2436f920:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/GVUserDefaults.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feee65fb0d0 'org.cocoapods.IQKeyboardManager' '<DVTFilePath:0x7feed8269be0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/IQKeyboardManager.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feefa817a00 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fef02e2e170:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJExtension.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feef979de40 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fef030f2a60:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJRefresh.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feefdbebfe0 'org.cocoapods.MLeaksFinder' '<DVTFilePath:0x7feefb749b70:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MLeaksFinder.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeea31ae10 'org.cocoapods.Masonry' '<DVTFilePath:0x7feefe240ae0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/Masonry.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeda838850 'org.cocoapods.SDCycleScrollView' '<DVTFilePath:0x7feee69c2890:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDCycleScrollView.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fef32bbee60 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7feefaf9a180:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDWebImage.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feefe4df760 'org.cocoapods.SensorsAnalyticsSDK' '<DVTFilePath:0x7feefbce9880:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework'>'>
+2018-05-17 07:53:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fef0044d160 'org.cocoapods.pop' '<DVTFilePath:0x7feef932aed0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/pop.framework'>'>
+2018-05-17 07:53:19 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app'
+2018-05-17 07:53:19 +0000  /usr/bin/xattr exited with 0
+2018-05-17 07:53:19 +0000  Processing step: IDEDistributionCodesignStep
+2018-05-17 07:53:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeda735b10 'org.cocoapods.ADGifLoading' '<DVTFilePath:0x7fef00686370:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/ADGifLoading.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feed5a816c0>: {
+}
+2018-05-17 07:53:19 +0000  Entitlements for <IDEDistributionItem: 0x7feeda735b10 'org.cocoapods.ADGifLoading' '<DVTFilePath:0x7fef00686370:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/ADGifLoading.framework'>'>: {
+}
+2018-05-17 07:53:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeda735b10 'org.cocoapods.ADGifLoading' '<DVTFilePath:0x7fef00686370:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/ADGifLoading.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementswFb1zJ
+2018-05-17 07:53:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementswFb1zJ' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/ADGifLoading.framework'
+2018-05-17 07:53:19 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/ADGifLoading.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.ADGifLoading]
+2018-05-17 07:53:19 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb10be60 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7feee6611c80:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AFNetworking.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fef106078c0>: {
+}
+2018-05-17 07:53:19 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb10be60 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7feee6611c80:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AFNetworking.framework'>'>: {
+}
+2018-05-17 07:53:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb10be60 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7feee6611c80:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AFNetworking.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsblAsZ1
+2018-05-17 07:53:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsblAsZ1' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/AFNetworking.framework'
+2018-05-17 07:53:19 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/AFNetworking.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AFNetworking]
+2018-05-17 07:53:19 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fef139cdf60 'org.cocoapods.AnimatedGIFImageSerialization' '<DVTFilePath:0x7fef208c11c0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeda7c3dd0>: {
+}
+2018-05-17 07:53:19 +0000  Entitlements for <IDEDistributionItem: 0x7fef139cdf60 'org.cocoapods.AnimatedGIFImageSerialization' '<DVTFilePath:0x7fef208c11c0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework'>'>: {
+}
+2018-05-17 07:53:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fef139cdf60 'org.cocoapods.AnimatedGIFImageSerialization' '<DVTFilePath:0x7fef208c11c0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsYezX3e
+2018-05-17 07:53:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsYezX3e' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework'
+2018-05-17 07:53:19 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AnimatedGIFImageSerialization]
+2018-05-17 07:53:19 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feee675fec0 'org.cocoapods.FBRetainCycleDetector' '<DVTFilePath:0x7feed58c67f0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fef1fe71b10>: {
+}
+2018-05-17 07:53:19 +0000  Entitlements for <IDEDistributionItem: 0x7feee675fec0 'org.cocoapods.FBRetainCycleDetector' '<DVTFilePath:0x7feed58c67f0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework'>'>: {
+}
+2018-05-17 07:53:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7feee675fec0 'org.cocoapods.FBRetainCycleDetector' '<DVTFilePath:0x7feed58c67f0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsiT1Bf9
+2018-05-17 07:53:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsiT1Bf9' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework'
+2018-05-17 07:53:20 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.FBRetainCycleDetector]
+2018-05-17 07:53:20 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeea3147c0 'org.cocoapods.FMDB' '<DVTFilePath:0x7feee8647320:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FMDB.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fef1101cff0>: {
+}
+2018-05-17 07:53:20 +0000  Entitlements for <IDEDistributionItem: 0x7feeea3147c0 'org.cocoapods.FMDB' '<DVTFilePath:0x7feee8647320:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FMDB.framework'>'>: {
+}
+2018-05-17 07:53:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeea3147c0 'org.cocoapods.FMDB' '<DVTFilePath:0x7feee8647320:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/FMDB.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsz089jS
+2018-05-17 07:53:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsz089jS' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/FMDB.framework'
+2018-05-17 07:53:20 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/FMDB.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.FMDB]
+2018-05-17 07:53:20 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fef40f59f40 'org.cocoapods.GVUserDefaults' '<DVTFilePath:0x7fef2436f920:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/GVUserDefaults.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feed5b62220>: {
+}
+2018-05-17 07:53:20 +0000  Entitlements for <IDEDistributionItem: 0x7fef40f59f40 'org.cocoapods.GVUserDefaults' '<DVTFilePath:0x7fef2436f920:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/GVUserDefaults.framework'>'>: {
+}
+2018-05-17 07:53:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fef40f59f40 'org.cocoapods.GVUserDefaults' '<DVTFilePath:0x7fef2436f920:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/GVUserDefaults.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsuZF6hn
+2018-05-17 07:53:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsuZF6hn' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework'
+2018-05-17 07:53:20 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.GVUserDefaults]
+2018-05-17 07:53:20 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feee65fb0d0 'org.cocoapods.IQKeyboardManager' '<DVTFilePath:0x7feed8269be0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/IQKeyboardManager.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feed55a5640>: {
+}
+2018-05-17 07:53:20 +0000  Entitlements for <IDEDistributionItem: 0x7feee65fb0d0 'org.cocoapods.IQKeyboardManager' '<DVTFilePath:0x7feed8269be0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/IQKeyboardManager.framework'>'>: {
+}
+2018-05-17 07:53:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7feee65fb0d0 'org.cocoapods.IQKeyboardManager' '<DVTFilePath:0x7feed8269be0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/IQKeyboardManager.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementslTD2Qi
+2018-05-17 07:53:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementslTD2Qi' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework'
+2018-05-17 07:53:20 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.IQKeyboardManager]
+2018-05-17 07:53:20 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feefa817a00 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fef02e2e170:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJExtension.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fef01ee0c90>: {
+}
+2018-05-17 07:53:20 +0000  Entitlements for <IDEDistributionItem: 0x7feefa817a00 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fef02e2e170:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJExtension.framework'>'>: {
+}
+2018-05-17 07:53:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7feefa817a00 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fef02e2e170:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJExtension.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlements9ecMEC
+2018-05-17 07:53:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlements9ecMEC' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/MJExtension.framework'
+2018-05-17 07:53:20 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/MJExtension.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MJExtension]
+2018-05-17 07:53:20 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feef979de40 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fef030f2a60:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJRefresh.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feed56c7fc0>: {
+}
+2018-05-17 07:53:20 +0000  Entitlements for <IDEDistributionItem: 0x7feef979de40 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fef030f2a60:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJRefresh.framework'>'>: {
+}
+2018-05-17 07:53:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7feef979de40 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fef030f2a60:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MJRefresh.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsUnecMn
+2018-05-17 07:53:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsUnecMn' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/MJRefresh.framework'
+2018-05-17 07:53:20 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/MJRefresh.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MJRefresh]
+2018-05-17 07:53:20 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feefdbebfe0 'org.cocoapods.MLeaksFinder' '<DVTFilePath:0x7feefb749b70:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MLeaksFinder.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feed60edb70>: {
+}
+2018-05-17 07:53:20 +0000  Entitlements for <IDEDistributionItem: 0x7feefdbebfe0 'org.cocoapods.MLeaksFinder' '<DVTFilePath:0x7feefb749b70:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MLeaksFinder.framework'>'>: {
+}
+2018-05-17 07:53:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7feefdbebfe0 'org.cocoapods.MLeaksFinder' '<DVTFilePath:0x7feefb749b70:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/MLeaksFinder.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsO6VxDr
+2018-05-17 07:53:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsO6VxDr' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework'
+2018-05-17 07:53:20 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MLeaksFinder]
+2018-05-17 07:53:20 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeea31ae10 'org.cocoapods.Masonry' '<DVTFilePath:0x7feefe240ae0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/Masonry.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fef059d9d70>: {
+}
+2018-05-17 07:53:20 +0000  Entitlements for <IDEDistributionItem: 0x7feeea31ae10 'org.cocoapods.Masonry' '<DVTFilePath:0x7feefe240ae0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/Masonry.framework'>'>: {
+}
+2018-05-17 07:53:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeea31ae10 'org.cocoapods.Masonry' '<DVTFilePath:0x7feefe240ae0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/Masonry.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsK8YuDq
+2018-05-17 07:53:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsK8YuDq' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/Masonry.framework'
+2018-05-17 07:53:21 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/Masonry.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Masonry]
+2018-05-17 07:53:21 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeda838850 'org.cocoapods.SDCycleScrollView' '<DVTFilePath:0x7feee69c2890:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDCycleScrollView.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fef01d49550>: {
+}
+2018-05-17 07:53:21 +0000  Entitlements for <IDEDistributionItem: 0x7feeda838850 'org.cocoapods.SDCycleScrollView' '<DVTFilePath:0x7feee69c2890:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDCycleScrollView.framework'>'>: {
+}
+2018-05-17 07:53:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeda838850 'org.cocoapods.SDCycleScrollView' '<DVTFilePath:0x7feee69c2890:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDCycleScrollView.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementswPYenc
+2018-05-17 07:53:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementswPYenc' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework'
+2018-05-17 07:53:21 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SDCycleScrollView]
+2018-05-17 07:53:21 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fef32bbee60 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7feefaf9a180:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDWebImage.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee9e618a0>: {
+}
+2018-05-17 07:53:21 +0000  Entitlements for <IDEDistributionItem: 0x7fef32bbee60 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7feefaf9a180:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDWebImage.framework'>'>: {
+}
+2018-05-17 07:53:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fef32bbee60 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7feefaf9a180:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SDWebImage.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsKWPRYG
+2018-05-17 07:53:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsKWPRYG' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/SDWebImage.framework'
+2018-05-17 07:53:21 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/SDWebImage.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SDWebImage]
+2018-05-17 07:53:21 +0000  
+2018-05-17 07:53:21 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feefe4df760 'org.cocoapods.SensorsAnalyticsSDK' '<DVTFilePath:0x7feefbce9880:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feed5bee890>: {
+}
+2018-05-17 07:53:21 +0000  Entitlements for <IDEDistributionItem: 0x7feefe4df760 'org.cocoapods.SensorsAnalyticsSDK' '<DVTFilePath:0x7feefbce9880:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework'>'>: {
+}
+2018-05-17 07:53:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7feefe4df760 'org.cocoapods.SensorsAnalyticsSDK' '<DVTFilePath:0x7feefbce9880:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsSRAVBC
+2018-05-17 07:53:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsSRAVBC' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework'
+2018-05-17 07:53:21 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SensorsAnalyticsSDK]
+2018-05-17 07:53:21 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fef0044d160 'org.cocoapods.pop' '<DVTFilePath:0x7feef932aed0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/pop.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feed679edd0>: {
+}
+2018-05-17 07:53:21 +0000  Entitlements for <IDEDistributionItem: 0x7fef0044d160 'org.cocoapods.pop' '<DVTFilePath:0x7feef932aed0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/pop.framework'>'>: {
+}
+2018-05-17 07:53:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fef0044d160 'org.cocoapods.pop' '<DVTFilePath:0x7feef932aed0:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app/Frameworks/pop.framework'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsnVnc9u
+2018-05-17 07:53:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsnVnc9u' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/pop.framework'
+2018-05-17 07:53:21 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app/Frameworks/pop.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.pop]
+2018-05-17 07:53:21 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feefdb15300 'com.paidian.test.hw' '<DVTFilePath:0x7feeee749560:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7feed6c23fa0>: {
+}
+2018-05-17 07:53:21 +0000  Entitlements for <IDEDistributionItem: 0x7feefdb15300 'com.paidian.test.hw' '<DVTFilePath:0x7feeee749560:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app'>'>: {
+    "application-identifier" = "A6C6R885GZ.com.paidian.test.hw";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = A6C6R885GZ;
+    "get-task-allow" = 0;
+}
+2018-05-17 07:53:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7feefdb15300 'com.paidian.test.hw' '<DVTFilePath:0x7feeee749560:'/Users/zd-pro/Library/Developer/Xcode/Archives/2018-05-17/hwmc_test 2018-5-17 下午3.52.xcarchive/Products/Applications/hwmc_test.app'>'> to: /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsumN8LG
+2018-05-17 07:53:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EC8067171B7C200F5A4D52F865A2C2753D8D765C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/entitlementsumN8LG' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app'
+2018-05-17 07:53:21 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app: replacing existing signature
+2018-05-17 07:53:22 +0000  /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root/Payload/hwmc_test.app: signed app bundle with Mach-O universal (armv7 arm64) [com.paidian.test.hw]
+2018-05-17 07:53:22 +0000  /usr/bin/codesign exited with 0
+2018-05-17 07:53:22 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-17 07:53:22 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-05-17 07:53:22 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root' '/var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Packages/hwmc_test.ipa'
+2018-05-17 07:53:22 +0000  >>> Copying /var/folders/d5/ck0sp_7s2j5c_qmtx1h8wjj00000gn/T/XcodeDistPipeline.dAf/Root 
+2018-05-17 07:53:22 +0000  
+2018-05-17 07:53:22 +0000  copying file ./Payload/hwmc_test.app/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:22 +0000  71043 bytes for ./Payload/hwmc_test.app/_CodeSignature/CodeResources
+2018-05-17 07:53:22 +0000  copying file ./Payload/hwmc_test.app/AppIcon20x20@2x.png ... 
+2018-05-17 07:53:22 +0000  933 bytes for ./Payload/hwmc_test.app/AppIcon20x20@2x.png
+copying file ./Payload/hwmc_test.app/AppIcon20x20@3x.png ... 
+2018-05-17 07:53:22 +0000  1275 bytes for ./Payload/hwmc_test.app/AppIcon20x20@3x.png
+2018-05-17 07:53:22 +0000  copying file ./Payload/hwmc_test.app/AppIcon29x29@2x.png ... 
+2018-05-17 07:53:22 +0000  1276 bytes for ./Payload/hwmc_test.app/AppIcon29x29@2x.png
+copying file ./Payload/hwmc_test.app/AppIcon29x29@3x.png ... 
+2018-05-17 07:53:22 +0000  1922 bytes for ./Payload/hwmc_test.app/AppIcon29x29@3x.png
+copying file ./Payload/hwmc_test.app/AppIcon40x40@2x.png ... 
+2018-05-17 07:53:22 +0000  1768 bytes for ./Payload/hwmc_test.app/AppIcon40x40@2x.png
+2018-05-17 07:53:22 +0000  copying file ./Payload/hwmc_test.app/AppIcon40x40@3x.png ... 
+2018-05-17 07:53:22 +0000  2660 bytes for ./Payload/hwmc_test.app/AppIcon40x40@3x.png
+copying file ./Payload/hwmc_test.app/AppIcon60x60@2x.png ... 
+2018-05-17 07:53:22 +0000  2641 bytes for ./Payload/hwmc_test.app/AppIcon60x60@2x.png
+copying file ./Payload/hwmc_test.app/AppIcon60x60@3x.png ... 
+2018-05-17 07:53:22 +0000  4008 bytes for ./Payload/hwmc_test.app/AppIcon60x60@3x.png
+2018-05-17 07:53:22 +0000  copying file ./Payload/hwmc_test.app/archived-expanded-entitlements.xcent ... 
+246 bytes for ./Payload/hwmc_test.app/archived-expanded-entitlements.xcent
+copying file ./Payload/hwmc_test.app/Assets.car ... 
+2018-05-17 07:53:23 +0000  16336920 bytes for ./Payload/hwmc_test.app/Assets.car
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_bg_dialog@2x.png ... 
+811 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_bg_dialog@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_bg_tag@2x.png ... 
+1187 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_bg_tag@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_btn_cancel@2x.png ... 
+2018-05-17 07:53:23 +0000  321 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_btn_cancel@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_btn_cancel_pressed@2x.png ... 
+2018-05-17 07:53:23 +0000  347 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_btn_cancel_pressed@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_btn_confirm@2x.png ... 
+2018-05-17 07:53:23 +0000  255 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_btn_confirm@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_btn_confirm_pressed@2x.png ... 
+267 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_btn_confirm_pressed@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_capture.mp3 ... 
+2018-05-17 07:53:23 +0000  7870 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_capture.mp3
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_account@2x.png ... 
+2018-05-17 07:53:23 +0000  1120 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_account@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow@2x.png ... 
+395 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_left@2x.png ... 
+2018-05-17 07:53:23 +0000  15122 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_left@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_left_selected@2x.png ... 
+2018-05-17 07:53:23 +0000  14978 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_left_selected@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_right@2x.png ... 
+2018-05-17 07:53:23 +0000  14915 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_right@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_right_selected@2x.png ... 
+2018-05-17 07:53:23 +0000  14859 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_right_selected@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_selected@2x.png ... 
+394 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_arrow_selected@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_assistivebutton@2x.png ... 
+2018-05-17 07:53:23 +0000  11676 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_assistivebutton@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_assistivebutton_pressed@2x.png ... 
+2018-05-17 07:53:23 +0000  10652 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_assistivebutton_pressed@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_assistivebutton_submit@2x.png ... 
+2018-05-17 07:53:23 +0000  10945 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_assistivebutton_submit@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_assistivebutton_submit_pressed@2x.png ... 
+2018-05-17 07:53:23 +0000  10006 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_assistivebutton_submit_pressed@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_avatar_placeholder@2x.png ... 
+1154 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_avatar_placeholder@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_cancel@2x.png ... 
+2018-05-17 07:53:23 +0000  2648 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_cancel@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_cancel_pressed@2x.png ... 
+2018-05-17 07:53:23 +0000  2548 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_cancel_pressed@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_captcha@2x.png ... 
+2018-05-17 07:53:23 +0000  1281 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_captcha@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_checkmark@2x.png ... 
+2018-05-17 07:53:23 +0000  895 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_checkmark@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_confirm@2x.png ... 
+2018-05-17 07:53:23 +0000  2432 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_confirm@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_confirm_pressed@2x.png ... 
+2018-05-17 07:53:23 +0000  2766 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_confirm_pressed@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_delete@2x.png ... 
+2018-05-17 07:53:23 +0000  952 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_delete@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_delete_selected@2x.png ... 
+2018-05-17 07:53:23 +0000  655 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_delete_selected@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_exchange@2x.png ... 
+2018-05-17 07:53:23 +0000  343 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_exchange@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_exchange_pressed@2x.png ... 
+321 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_exchange_pressed@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_issue_type_1@2x.png ... 
+2018-05-17 07:53:23 +0000  1364 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_issue_type_1@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_issue_type_2@2x.png ... 
+2018-05-17 07:53:23 +0000  1164 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_issue_type_2@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_password@2x.png ... 
+2018-05-17 07:53:23 +0000  1022 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_password@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_0@2x.png ... 
+2018-05-17 07:53:23 +0000  491 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_0@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_0_normal@2x.png ... 
+2018-05-17 07:53:23 +0000  1204 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_0_normal@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_0_selected@2x.png ... 
+2018-05-17 07:53:23 +0000  1051 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_0_selected@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_1@2x.png ... 
+2018-05-17 07:53:23 +0000  495 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_1@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_1_normal@2x.png ... 
+2018-05-17 07:53:23 +0000  1186 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_1_normal@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_1_selected@2x.png ... 
+1044 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_1_selected@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_2@2x.png ... 
+485 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_2@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_2_normal@2x.png ... 
+2018-05-17 07:53:23 +0000  1207 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_2_normal@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_2_selected@2x.png ... 
+2018-05-17 07:53:23 +0000  1257 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_2_selected@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_3@2x.png ... 
+2018-05-17 07:53:23 +0000  490 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_3@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_3_normal@2x.png ... 
+2018-05-17 07:53:23 +0000  1116 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_3_normal@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_3_selected@2x.png ... 
+2018-05-17 07:53:23 +0000  1029 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_priority_3_selected@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_quicksignin@2x.png ... 
+2018-05-17 07:53:23 +0000  809 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_quicksignin@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_quicksignin_selected@2x.png ... 
+2018-05-17 07:53:23 +0000  995 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_quicksignin_selected@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_report@2x.png ... 
+2018-05-17 07:53:23 +0000  2423 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_report@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_report_pressed@2x.png ... 
+2018-05-17 07:53:23 +0000  2644 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_report_pressed@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tag_pin@2x.png ... 
+2018-05-17 07:53:23 +0000  722 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tag_pin@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tag_type_1@2x.png ... 
+2018-05-17 07:53:23 +0000  3060 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tag_type_1@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tag_type_2@2x.png ... 
+2018-05-17 07:53:23 +0000  1126 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tag_type_2@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tips_tag_1@2x.png ... 
+2018-05-17 07:53:23 +0000  2195 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tips_tag_1@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tips_tag_2@2x.png ... 
+2018-05-17 07:53:23 +0000  1132 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tips_tag_2@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tips_tag_3@2x.png ... 
+2018-05-17 07:53:23 +0000  1373 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_tips_tag_3@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_user@2x.png ... 
+2018-05-17 07:53:23 +0000  2629 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_user@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_user_pressed@2x.png ... 
+2018-05-17 07:53:23 +0000  2572 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_icon_user_pressed@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_line@2x.png ... 
+140 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_line@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_line_vertical@2x.png ... 
+2018-05-17 07:53:23 +0000  139 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_line_vertical@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/btg_logo@2x.png ... 
+2018-05-17 07:53:23 +0000  4538 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/btg_logo@2x.png
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/BTGCreateTagView-Landscape.nib ... 
+2018-05-17 07:53:23 +0000  9081 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/BTGCreateTagView-Landscape.nib
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/BTGCreateTagView.nib ... 
+2018-05-17 07:53:23 +0000  9098 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/BTGCreateTagView.nib
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/BTGCreateTagView~ipad.nib ... 
+2018-05-17 07:53:23 +0000  9203 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/BTGCreateTagView~ipad.nib
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/BTGSignInViewController.nib ... 
+2018-05-17 07:53:23 +0000  6003 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/BTGSignInViewController.nib
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/BTGSignInViewController~ipad.nib ... 
+2018-05-17 07:53:23 +0000  6012 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/BTGSignInViewController~ipad.nib
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/BTGTagTipsView.nib ... 
+2018-05-17 07:53:23 +0000  3946 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/BTGTagTipsView.nib
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/BTGTagTipsView~ipad.nib ... 
+2018-05-17 07:53:23 +0000  3956 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/BTGTagTipsView~ipad.nib
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/Bugtags_dsym_autoupload.sh ... 
+2018-05-17 07:53:23 +0000  4059 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/Bugtags_dsym_autoupload.sh
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/en.lproj/Localizable.strings ... 
+2018-05-17 07:53:23 +0000  1477 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/en.lproj/Localizable.strings
+copying file ./Payload/hwmc_test.app/Bugtags.bundle/zh-Hans.lproj/Localizable.strings ... 
+2018-05-17 07:53:23 +0000  1523 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/zh-Hans.lproj/Localizable.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Bugtags.bundle/zh-Hant.lproj/Localizable.strings ... 
+2018-05-17 07:53:23 +0000  1523 bytes for ./Payload/hwmc_test.app/Bugtags.bundle/zh-Hant.lproj/Localizable.strings
+copying file ./Payload/hwmc_test.app/embedded.mobileprovision ... 
+2018-05-17 07:53:23 +0000  10163 bytes for ./Payload/hwmc_test.app/embedded.mobileprovision
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2528 bytes for ./Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading ... 
+2018-05-17 07:53:23 +0000  194928 bytes for ./Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading.bundle/Info.plist ... 
+722 bytes for ./Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/ADGifLoading.bundle/Info.plist
+copying file ./Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  747 bytes for ./Payload/hwmc_test.app/Frameworks/ADGifLoading.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking ... 
+2018-05-17 07:53:23 +0000  1033600 bytes for ./Payload/hwmc_test.app/Frameworks/AFNetworking.framework/AFNetworking
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/AFNetworking.framework/Info.plist ... 
+747 bytes for ./Payload/hwmc_test.app/Frameworks/AFNetworking.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization ... 
+2018-05-17 07:53:23 +0000  200288 bytes for ./Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/AnimatedGIFImageSerialization
+copying file ./Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  783 bytes for ./Payload/hwmc_test.app/Frameworks/AnimatedGIFImageSerialization.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector ... 
+2018-05-17 07:53:23 +0000  425248 bytes for ./Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/FBRetainCycleDetector
+copying file ./Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  767 bytes for ./Payload/hwmc_test.app/Frameworks/FBRetainCycleDetector.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/FMDB.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/FMDB.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/FMDB.framework/FMDB ... 
+2018-05-17 07:53:23 +0000  377408 bytes for ./Payload/hwmc_test.app/Frameworks/FMDB.framework/FMDB
+copying file ./Payload/hwmc_test.app/Frameworks/FMDB.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  731 bytes for ./Payload/hwmc_test.app/Frameworks/FMDB.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults ... 
+2018-05-17 07:53:23 +0000  198096 bytes for ./Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/GVUserDefaults
+copying file ./Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  751 bytes for ./Payload/hwmc_test.app/Frameworks/GVUserDefaults.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  6350 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  759 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager ... 
+2018-05-17 07:53:23 +0000  557280 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/de.lproj/IQKeyboardManager.strings ... 
+489 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/de.lproj/IQKeyboardManager.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/en.lproj/IQKeyboardManager.strings ... 
+2018-05-17 07:53:23 +0000  474 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/en.lproj/IQKeyboardManager.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/es.lproj/IQKeyboardManager.strings ... 
+2018-05-17 07:53:23 +0000  496 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/es.lproj/IQKeyboardManager.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/fr.lproj/IQKeyboardManager.strings ... 
+2018-05-17 07:53:23 +0000  497 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/fr.lproj/IQKeyboardManager.strings
+copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png ... 
+2018-05-17 07:53:23 +0000  1793 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png ... 
+2018-05-17 07:53:23 +0000  1815 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png ... 
+2018-05-17 07:53:23 +0000  1786 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png ... 
+2018-05-17 07:53:23 +0000  1844 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/zh-Hans/IQKeyboardManager.strings ... 
+2018-05-17 07:53:23 +0000  479 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/zh-Hans/IQKeyboardManager.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/zh-Hant/IQKeyboardManager.strings ... 
+2018-05-17 07:53:23 +0000  479 bytes for ./Payload/hwmc_test.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/zh-Hant/IQKeyboardManager.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/Masonry.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/Masonry.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/Masonry.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  737 bytes for ./Payload/hwmc_test.app/Frameworks/Masonry.framework/Info.plist
+copying file ./Payload/hwmc_test.app/Frameworks/Masonry.framework/Masonry ... 
+2018-05-17 07:53:23 +0000  422192 bytes for ./Payload/hwmc_test.app/Frameworks/Masonry.framework/Masonry
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/MJExtension.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/hwmc_test.app/Frameworks/MJExtension.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/MJExtension.framework/Info.plist ... 
+746 bytes for ./Payload/hwmc_test.app/Frameworks/MJExtension.framework/Info.plist
+copying file ./Payload/hwmc_test.app/Frameworks/MJExtension.framework/MJExtension ... 
+2018-05-17 07:53:23 +0000  356048 bytes for ./Payload/hwmc_test.app/Frameworks/MJExtension.framework/MJExtension
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  3917 bytes for ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  742 bytes for ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/Info.plist
+copying file ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh ... 
+2018-05-17 07:53:23 +0000  453200 bytes for ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png ... 
+2018-05-17 07:53:23 +0000  1033 bytes for ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png
+copying file ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings ... 
+2018-05-17 07:53:23 +0000  1372 bytes for ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings ... 
+2018-05-17 07:53:23 +0000  1194 bytes for ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings ... 
+2018-05-17 07:53:23 +0000  773 bytes for ./Payload/hwmc_test.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  747 bytes for ./Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/Info.plist
+copying file ./Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder ... 
+2018-05-17 07:53:23 +0000  237200 bytes for ./Payload/hwmc_test.app/Frameworks/MLeaksFinder.framework/MLeaksFinder
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/pop.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/pop.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/pop.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  729 bytes for ./Payload/hwmc_test.app/Frameworks/pop.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/pop.framework/pop ... 
+2018-05-17 07:53:23 +0000  768288 bytes for ./Payload/hwmc_test.app/Frameworks/pop.framework/pop
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  760 bytes for ./Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/Info.plist
+copying file ./Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView ... 
+2018-05-17 07:53:23 +0000  339632 bytes for ./Payload/hwmc_test.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Payload/hwmc_test.app/Frameworks/SDWebImage.framework/Info.plist ... 
+2018-05-17 07:53:23 +0000  743 bytes for ./Payload/hwmc_test.app/Frameworks/SDWebImage.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage ... 
+2018-05-17 07:53:23 +0000  722848 bytes for ./Payload/hwmc_test.app/Frameworks/SDWebImage.framework/SDWebImage
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/_CodeSignature/CodeResources ... 
+2018-05-17 07:53:23 +0000  2202 bytes for ./Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/_CodeSignature/CodeResources
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/Info.plist ... 
+763 bytes for ./Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/Info.plist
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK ... 
+2018-05-17 07:53:23 +0000  1483712 bytes for ./Payload/hwmc_test.app/Frameworks/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/HW_IncomeSaleHeadView.nib ... 
+2018-05-17 07:53:23 +0000  4539 bytes for ./Payload/hwmc_test.app/HW_IncomeSaleHeadView.nib
+copying file ./Payload/hwmc_test.app/HW_IncomeShopOrderHeadView.nib ... 
+2018-05-17 07:53:23 +0000  3667 bytes for ./Payload/hwmc_test.app/HW_IncomeShopOrderHeadView.nib
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/hwmc.db ... 
+2018-05-17 07:53:23 +0000  2539520 bytes for ./Payload/hwmc_test.app/hwmc.db
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/hwmc.momd/hwmc.mom ... 
+513 bytes for ./Payload/hwmc_test.app/hwmc.momd/hwmc.mom
+copying file ./Payload/hwmc_test.app/hwmc.momd/hwmc.omo ... 
+696 bytes for ./Payload/hwmc_test.app/hwmc.momd/hwmc.omo
+2018-05-17 07:53:23 +0000  copying file ./Payload/hwmc_test.app/hwmc.momd/VersionInfo.plist ... 
+145 bytes for ./Payload/hwmc_test.app/hwmc.momd/VersionInfo.plist
+copying file ./Payload/hwmc_test.app/hwmc_test ... 
+2018-05-17 07:53:24 +0000  11715584 bytes for ./Payload/hwmc_test.app/hwmc_test
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/fQ5-X9-UYU-view-K7q-y8-rgD.nib ... 
+2018-05-17 07:53:24 +0000  27057 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/fQ5-X9-UYU-view-K7q-y8-rgD.nib
+copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/Gsn-Mn-uKU-view-fdO-ac-TGQ.nib ... 
+2018-05-17 07:53:24 +0000  8055 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/Gsn-Mn-uKU-view-fdO-ac-TGQ.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/HW_IncomeController.nib ... 
+1028 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/HW_IncomeController.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/HW_IncomeGetMoneyController.nib ... 
+1036 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/HW_IncomeGetMoneyController.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/HW_IncomeVerifiedController.nib ... 
+2018-05-17 07:53:24 +0000  1036 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/HW_IncomeVerifiedController.nib
+copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/HW_IndexMineController.nib ... 
+2018-05-17 07:53:24 +0000  1001 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/HW_IndexMineController.nib
+copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/Info.plist ... 
+2018-05-17 07:53:24 +0000  358 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/Info.plist
+copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/mkL-4s-k57-view-JjF-x2-dWF.nib ... 
+2018-05-17 07:53:24 +0000  20787 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/mkL-4s-k57-view-JjF-x2-dWF.nib
+copying file ./Payload/hwmc_test.app/IncomeUI.storyboardc/PXo-WQ-VmJ-view-A0O-8Z-FNs.nib ... 
+2018-05-17 07:53:24 +0000  9536 bytes for ./Payload/hwmc_test.app/IncomeUI.storyboardc/PXo-WQ-VmJ-view-A0O-8Z-FNs.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/Info.plist ... 
+2018-05-17 07:53:24 +0000  4155 bytes for ./Payload/hwmc_test.app/Info.plist
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-17 07:53:24 +0000  4252 bytes for ./Payload/hwmc_test.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/LaunchScreen.storyboardc/Info.plist ... 
+193 bytes for ./Payload/hwmc_test.app/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/hwmc_test.app/LaunchScreen.storyboardc/LaunchScreen.nib ... 
+2018-05-17 07:53:24 +0000  909 bytes for ./Payload/hwmc_test.app/LaunchScreen.storyboardc/LaunchScreen.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/loading_haowumc.gif ... 
+2018-05-17 07:53:24 +0000  98678 bytes for ./Payload/hwmc_test.app/loading_haowumc.gif
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-17 07:53:24 +0000  1791 bytes for ./Payload/hwmc_test.app/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/hwmc_test.app/Main.storyboardc/Info.plist ... 
+2018-05-17 07:53:24 +0000  258 bytes for ./Payload/hwmc_test.app/Main.storyboardc/Info.plist
+copying file ./Payload/hwmc_test.app/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-05-17 07:53:24 +0000  916 bytes for ./Payload/hwmc_test.app/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/PkgInfo ... 
+2018-05-17 07:53:24 +0000  8 bytes for ./Payload/hwmc_test.app/PkgInfo
+copying file ./Payload/hwmc_test.app/PlaceUI.storyboardc/2WH-Va-aux-view-hDe-Wr-fGH.nib ... 
+2018-05-17 07:53:24 +0000  11433 bytes for ./Payload/hwmc_test.app/PlaceUI.storyboardc/2WH-Va-aux-view-hDe-Wr-fGH.nib
+copying file ./Payload/hwmc_test.app/PlaceUI.storyboardc/HW_MinePlaceDetailController.nib ... 
+2018-05-17 07:53:24 +0000  1037 bytes for ./Payload/hwmc_test.app/PlaceUI.storyboardc/HW_MinePlaceDetailController.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/PlaceUI.storyboardc/Info.plist ... 
+181 bytes for ./Payload/hwmc_test.app/PlaceUI.storyboardc/Info.plist
+copying file ./Payload/hwmc_test.app/ReadMeFile ... 
+2018-05-17 07:53:24 +0000  675 bytes for ./Payload/hwmc_test.app/ReadMeFile
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/ShopCar.storyboardc/7JN-um-oJn-view-JIL-sy-Scr.nib ... 
+2018-05-17 07:53:24 +0000  7399 bytes for ./Payload/hwmc_test.app/ShopCar.storyboardc/7JN-um-oJn-view-JIL-sy-Scr.nib
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/ShopCar.storyboardc/HW_OrderSuccessController.nib ... 
+2018-05-17 07:53:24 +0000  1034 bytes for ./Payload/hwmc_test.app/ShopCar.storyboardc/HW_OrderSuccessController.nib
+copying file ./Payload/hwmc_test.app/ShopCar.storyboardc/Info.plist ... 
+2018-05-17 07:53:24 +0000  175 bytes for ./Payload/hwmc_test.app/ShopCar.storyboardc/Info.plist
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/en.lproj/Localizable.strings ... 
+2018-05-17 07:53:24 +0000  2444 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/en.lproj/Localizable.strings
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/MMVideoPreviewPlay@2x.png ... 
+2018-05-17 07:53:24 +0000  3645 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/MMVideoPreviewPlay@2x.png
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/MMVideoPreviewPlayHL@2x.png ... 
+2018-05-17 07:53:24 +0000  3645 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/MMVideoPreviewPlayHL@2x.png
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/navi_back@2x.png ... 
+2018-05-17 07:53:24 +0000  116 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/navi_back@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_def_photoPickerVc@2x.png ... 
+2018-05-17 07:53:24 +0000  1155 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_def_photoPickerVc@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_def_previewVc@2x.png ... 
+2018-05-17 07:53:24 +0000  1155 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_def_previewVc@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_number_icon@2x.png ... 
+2018-05-17 07:53:24 +0000  501 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_number_icon@2x.png
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_original_def@2x.png ... 
+2018-05-17 07:53:24 +0000  1602 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_original_def@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_original_sel@2x.png ... 
+2018-05-17 07:53:24 +0000  620 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_original_sel@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_sel_photoPickerVc@2x.png ... 
+2018-05-17 07:53:24 +0000  1006 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_sel_photoPickerVc@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_sel_previewVc@2x.png ... 
+2018-05-17 07:53:24 +0000  1183 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/photo_sel_previewVc@2x.png
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/preview_number_icon@2x.png ... 
+501 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/preview_number_icon@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/preview_original_def@2x.png ... 
+2018-05-17 07:53:24 +0000  392 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/preview_original_def@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/Root.plist ... 
+2018-05-17 07:53:24 +0000  1456 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/Root.plist
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/TableViewArrow@2x.png ... 
+2018-05-17 07:53:24 +0000  299 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/TableViewArrow@2x.png
+copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/takePicture@2x.png ... 
+2018-05-17 07:53:24 +0000  5924 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/takePicture@2x.png
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/VideoSendIcon@2x.png ... 
+223 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/VideoSendIcon@2x.png
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/TZImagePickerController.bundle/zh-Hans.lproj/Localizable.strings ... 
+2018-05-17 07:53:24 +0000  1792 bytes for ./Payload/hwmc_test.app/TZImagePickerController.bundle/zh-Hans.lproj/Localizable.strings
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/UMSocialSDKPromptResources.bundle/en.lproj/UMSocialPromptLocalizable.strings ... 
+2018-05-17 07:53:24 +0000  8304 bytes for ./Payload/hwmc_test.app/UMSocialSDKPromptResources.bundle/en.lproj/UMSocialPromptLocalizable.strings
+2018-05-17 07:53:24 +0000  copying file ./Payload/hwmc_test.app/UMSocialSDKPromptResources.bundle/zh-Hans.lproj/UMSocialPromptLocalizable.strings ... 
+2018-05-17 07:53:24 +0000  8304 bytes for ./Payload/hwmc_test.app/UMSocialSDKPromptResources.bundle/zh-Hans.lproj/UMSocialPromptLocalizable.strings
+2018-05-17 07:53:24 +0000  /usr/bin/ditto exited with 0
+2018-05-17 07:53:24 +0000  Processing step: IDEDistributionCreateManifestStep
